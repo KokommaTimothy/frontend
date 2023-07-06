@@ -117,6 +117,7 @@ const ExpenseFormStyled = styled.form`
   display: flex;
   flex-direction: column;
   gap: 2rem;
+
   input,
   textarea,
   select {
@@ -135,6 +136,7 @@ const ExpenseFormStyled = styled.form`
       color: rgba(34, 34, 96, 0.4);
     }
   }
+  
   .input-control {
     input {
       width: 100%;

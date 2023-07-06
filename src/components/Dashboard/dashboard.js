@@ -141,6 +141,7 @@ const DashboardStyled = styled.div`
           font-size: 1.8rem;
         }
       }
+
       .salary-item {
         background: #fcf6f9;
         border: 2px solid #ffffff;
@@ -150,6 +151,7 @@ const DashboardStyled = styled.div`
         display: flex;
         justify-content: space-between;
         align-items: center;
+        
         p {
           font-weight: 600;
           font-size: 1.6rem;
