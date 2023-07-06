@@ -5,6 +5,7 @@ import { menuItems } from "../../utils/menuItems";
 import { signout } from "../../utils/icons";
 
 function Navigation({ active, setActive }) {
+  
   return (
     <NavStyled>
       <div className="user-con">
@@ -16,6 +17,7 @@ function Navigation({ active, setActive }) {
       </div>
 
       <ul className="menu-items">
+
         {menuItems.map((item) => {
           return (
             <li
